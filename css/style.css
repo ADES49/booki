@@ -8,6 +8,7 @@
 body {
    max-width: 1440px;
     min-width: 320px;
+    margin:auto;
 }
     
 
@@ -16,6 +17,15 @@ body {
   flex-direction: row;
     
 }
+
+.input-field::placeholder {
+ 
+  font-size:15px;
+  font-style: bold;
+  color:black;
+}
+
+
 .title-container2 {
     display: flex;
     margin-left: 20px;
@@ -439,6 +449,10 @@ body {
     }
 
     .populaires-cards .card {
+        width: 100%;
+    }
+    
+    .populaires-cards a {
         width: 30%;
     }
 
@@ -485,7 +499,10 @@ body {
         box-sizing: border-box;
         width: 100%;
     }
-
+    
+    .populaires-cards a {
+        width: 100%;
+    }
     
     .input-field {
         width: 100%;
